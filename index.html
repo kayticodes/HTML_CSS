@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Resources/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <a class="navbar-home" href="index.html">Latitude</a>
+
+            <a href="Resources/html_pages/data.html">data</a>
+
+            <a href="Resources/html_pages/comparison.html">comparison</a>
+            <select>
+                <option value="plots">plots</option>
+                <option value="Resources/html_pages/temprature.html">temperature</option>
+                <option value="Resources/html_pages/humidity.html">humidity</option>
+                <option value="Resources/html_pages/cloudiness.html">cloudiness</option>
+                <option value="Resources/html_pages/wind_speed.html">wind speed</option>
+            </select>
+        </nav>
+    </div>
+
+
+    <h1 class="summary">Summary: Latitude vs. X </h1>
+    <hr>
+    <p>In this project we sought to analyze and visualize weather data so that we could see how the weather changes in
+        accordance with the equator. To begin, we headed over to the OpenWeatherMap API and gathered and structured a
+        dataset which contains information from over 500 cities. Shout out to OpenWeatherMap API! <img
+            src="Resources/assets/images/person-raising-both-hands-in-celebration_1f64c.png" alt="emoji" height="20"
+            width="20"></p>
+    <br>
+    <p> Once we got to a point where we were happy with our dataset structure, we used MatplotLib to help us visualize
+        how the weather changes based on latitude. We looked specifically at: temperature, cloudiness, wind speed, and
+        humidity. Enjoy exploring this website as we provide the source data and the above mentioned visualizations.</p>
+    <img src="Resources/assets/images/Fig1.png" alt="temperature plot">
+    <br>
+    <br>
+    <div class="visualizations">
+        <h1>Visualizations</h1>
+        <hr>
+        <a href="Resources/html_pages/temprature.html"><img src="Resources/assets/images/Fig1.png"
+                alt="temperature plot link"></a>
+        <a href="Resources/html_pages/humidity.html"><img src="Resources/assets/images/Fig2.png"
+                alt="humidity plot"></a>
+        <a href="Resources/html_pages/cloudiness.html"><img src="Resources/assets/images/Fig3.png"
+                alt="cloudiness plot"></a>
+        <a href="Resources/html_pages/wind_speed.html"><img src="Resources/assets/images/Fig4.png"
+                alt="wind speed plot"></a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+
+  body {
+    background-color: #ededed;
+    
+  }
+  
+h1 {
+    color:#5191fd;
+}
+
+.navbar {
+  padding: 30px;
+  background: #5191fd;
+}
+
+.navbar a {
+  display: inline;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.navbar li a {
+  color: #000000;
+  text-decoration: none
+}
+
+.navbar select { 
+  display: inline;
+  padding: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 3px;
+
+}
